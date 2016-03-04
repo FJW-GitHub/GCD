@@ -15,6 +15,9 @@
 		694D39FB1C887EA10019C1FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 694D39F91C887EA10019C1FB /* LaunchScreen.storyboard */; };
 		694D3A061C887EA10019C1FB /* GCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 694D3A051C887EA10019C1FB /* GCDTests.m */; };
 		694D3A111C887EA10019C1FB /* GCDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 694D3A101C887EA10019C1FB /* GCDUITests.m */; };
+		694D3A201C8890EB0019C1FB /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694D3A1F1C8890EB0019C1FB /* MoreViewController.m */; };
+		694D3A231C8891320019C1FB /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694D3A221C8891310019C1FB /* OneViewController.m */; };
+		694D3A261C88913C0019C1FB /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694D3A251C88913C0019C1FB /* GCDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		694D3A0C1C887EA10019C1FB /* GCDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		694D3A101C887EA10019C1FB /* GCDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDUITests.m; sourceTree = "<group>"; };
 		694D3A121C887EA10019C1FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		694D3A1E1C8890EB0019C1FB /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		694D3A1F1C8890EB0019C1FB /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		694D3A211C8891310019C1FB /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		694D3A221C8891310019C1FB /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		694D3A241C88913C0019C1FB /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		694D3A251C88913C0019C1FB /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				694D39EF1C887EA10019C1FB /* AppDelegate.m */,
 				694D39F11C887EA10019C1FB /* ViewController.h */,
 				694D39F21C887EA10019C1FB /* ViewController.m */,
+				694D3A1E1C8890EB0019C1FB /* MoreViewController.h */,
+				694D3A1F1C8890EB0019C1FB /* MoreViewController.m */,
+				694D3A211C8891310019C1FB /* OneViewController.h */,
+				694D3A221C8891310019C1FB /* OneViewController.m */,
+				694D3A241C88913C0019C1FB /* GCDViewController.h */,
+				694D3A251C88913C0019C1FB /* GCDViewController.m */,
 				694D39F41C887EA10019C1FB /* Main.storyboard */,
 				694D39F71C887EA10019C1FB /* Assets.xcassets */,
 				694D39F91C887EA10019C1FB /* LaunchScreen.storyboard */,
@@ -271,6 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				694D39F31C887EA10019C1FB /* ViewController.m in Sources */,
+				694D3A261C88913C0019C1FB /* GCDViewController.m in Sources */,
+				694D3A231C8891320019C1FB /* OneViewController.m in Sources */,
+				694D3A201C8890EB0019C1FB /* MoreViewController.m in Sources */,
 				694D39F01C887EA10019C1FB /* AppDelegate.m in Sources */,
 				694D39ED1C887EA10019C1FB /* main.m in Sources */,
 			);
